@@ -5,6 +5,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  padding-bottom: 3rem; /* Added padding */
 }
 
 h1 {
@@ -12,14 +13,14 @@ h1 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
+  text-align: center;
 }
 
-/* navigation bar */
+/* Navigation bar */
 
 .navbar-brand {
   font-family: "Ubuntu";
@@ -38,6 +39,59 @@ h1 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat"
+  font-family: "Montserrat";
   font-weight: light;
+}
+
+#features,
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+#features {
+  margin-bottom: 3rem;
+}
+
+#testimonials {
+  margin-bottom: 3rem;
+}
+
+#press {
+  margin-bottom: 3rem;
+}
+
+#pricing {
+  margin-bottom: 3rem;
+}
+
+#cta {
+  margin-bottom: 3rem;
+}
+
+#title .row {
+  justify-content: center;
+}
+
+#title h1 {
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-brand.mx-auto {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
